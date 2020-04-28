@@ -1,0 +1,113 @@
+/*Trade tile*/
+
+.Trade-tile{
+    height: 430px;
+}
+
+input[type=radio]{
+    visibility: hidden;
+}
+
+ input + label {
+    cursor: pointer;
+} 
+
+.checked{
+    border-bottom: solid 2px #feda6a;
+}
+
+.buy, .sell{
+    border-bottom: solid 2px #393f4d;
+    padding-bottom: 8px;
+    text-align: center;
+}
+.buy{
+    margin-right: 8px;
+}
+.sell{
+    margin-left: 8px;
+}
+
+.form-group label{
+    font-size: small;
+}
+
+option{
+    background-color: #1d1e22 !important;
+    background: #1d1e22;
+}
+
+.form-control{
+    background: #1d1e22;
+    background-color: #1d1e22 !important;
+    border-color: #393f4d;
+    border: #393f4d 2px solid;
+    color: #d4d4dc;
+}
+
+.form-control:focus{
+    border-color: #393f4d !important;
+  box-shadow: none;
+  outline: 0 none;
+  color:#d4d4dc;
+}
+
+
+
+.modal-content{
+    color: #d4d4dc;
+    background-color: #1d1e22;
+    font-size: small;
+}
+
+.modal-body{
+    margin-left: 30px;
+    padding-top: 0px;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+    padding-bottom: 0px;
+}
+
+.confirm-img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.close {
+    color: #d4d4dc;
+    display: 4;
+}
+.close:hover{
+    color: #d4d4dc;
+}
+
+#lblTradeStock{
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    border: 0px !important;
+}
+
+.invalidInput{
+    border:0;
+    border-bottom: 2px solid #E33E33;
+    border-radius: 0px;
+}
+
+/* input[type=text]{
+    border:0;
+    border-bottom: 2px solid #393f4d;
+    border-radius: 0px;
+} */
+
+.validInput{
+    border:0;
+    border-bottom: 2px solid #393f4d;
+    border-radius: 0px;
+}
+
+/*Trade tile*/

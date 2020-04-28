@@ -1,0 +1,69 @@
+/* watchlist tile */
+
+.watchlist-tile{
+    overflow: auto;
+    height: 310px;
+}
+
+#btnDone, #inputWLSearchStock{
+ display: none;
+}
+
+.list-group-item{
+    background-color: #1d1e22;
+    border-bottom: solid 2px #393f4d;
+}
+
+.list-group{
+    height: 170px;
+    max-height: 170px;
+    overflow: auto;
+}
+
+.green{
+    border-radius: 4px;
+    border: #85bb65 solid 1px;
+    color: #85bb65;
+    height: 26px;
+    width: 300px;
+}
+
+.red{
+    border-radius: 4px;
+    border: #E33E33 solid 1px;
+    height: 26px;
+    color: #E33E33;
+    width: 300px;
+}
+
+.btn-close{
+    border: 2px solid #393f4d;
+    width: 25px;
+    height: 25px;
+    color: #E33E33;
+    font-weight: bold;
+    margin-left: 8px;
+    border-radius: 4px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.btn-add{
+    border: 2px solid #393f4d;
+    width: 55px;
+    height: 25px;
+    color: #feda6a;
+    font-weight: bold;
+    margin-left: 8px;
+    border-radius: 4px;
+    line-height: 1;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+#inputWLSearchStock{
+    background: #393f4d !important;
+    border-radius: 4px;
+}
+
+/* watchlist tile */

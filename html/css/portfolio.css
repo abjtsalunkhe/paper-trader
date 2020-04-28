@@ -1,0 +1,30 @@
+/* portfolio tile */
+
+.portfolio-tile{
+    height: 310px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.portfolio-green{
+    color:#85bb65;
+}
+
+.portfolio-red{
+    color:#E33E33;
+}
+
+.portfolio-stock-green{
+        border-radius: 4px;
+     background-color: #85bb65;
+        width: 120px;
+        color: #1d1e22;
+}
+
+.portfolio-stock-red{
+    border-radius: 4px;
+ background-color: #E33E33;
+    width: 120px;
+    color: #1d1e22;
+}
+
+/* portfolio tile */

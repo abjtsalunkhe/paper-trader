@@ -1,0 +1,108 @@
+
+.navigation{
+    background-color: #1d1e22;
+    height:65px;
+    border-bottom: solid 1px #393f4d;
+}
+
+.logo-text{
+    color:#feda6a;
+}
+
+body{
+    background-image: linear-gradient(140deg, #393f4d 12.50%, #1d1e22 12.50%, #1d1e22 50%, #393f4d 50%, #393f4d 62.50%, #1d1e22 62.50%, #1d1e22 100%);
+    background-size: 6.22px 5.22px;
+    color: #d4d4dc;
+    font-family: 'Prompt', sans-serif;
+}
+
+.table{
+    color: #d4d4dc;
+}
+
+.tile-background{
+    background-color: #1d1e22;
+    height: 100%;
+    border: solid 2px #393f4d;
+    padding: 20px;
+}
+
+.btn:hover, .btn:active{
+    background-color: #feda6a;
+    color: #1d1e22;
+    border: 0px;
+    outline: 0;
+} 
+
+.btn, .btn:focus{
+    background-color: #393f4d;
+    color: #1d1e22;
+    font-weight: bold;
+    border: 0px;
+    outline: solid 5px #1d1e22;
+    outline-style: solid;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn:disabled{
+    background-color: #393f4d;
+    color: #1d1e22;
+    font-weight: bold; 
+    border: 0px;
+    cursor: not-allowed;
+}
+
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 14px;
+    background-color: #1d1e22;
+}
+::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid #1d1e22;
+    background-clip: padding-box;
+    border-radius: 7px;
+    background-color: #393f4d;
+}
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+/* scrollbar */
+      
+@media only screen and (max-width: 600px) {
+    .buying-power-text{
+        font-size: 100%;
+    }
+    .equity-text{
+        font-size: 120%;
+    }
+
+    .Trade-tile{
+        padding: 0px;
+        padding-right: 14px;
+        padding-left: 14px;
+        margin-bottom:15px;
+    }
+
+    .tile-row-2{
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+
+    .my-custom-scrollbar {
+        height: 200px;
+    }
+  }
+
+
+ 

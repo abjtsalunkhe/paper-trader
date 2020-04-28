@@ -1,0 +1,43 @@
+/* Orders tile */
+
+.order-tile{
+    height: 430px;
+    margin-bottom: 10px;
+    overflow: auto;
+    font-size: small;
+}
+
+.order-filled{
+    color: #85bb65;
+    font-weight: bold;
+}
+
+.order-status{
+    font-weight: bold;
+}
+
+.order-stock{
+    font-weight: bold;
+    font-size: large;
+}
+
+th{
+    font-weight: lighter;
+    font-size: small;
+}
+
+td{
+    vertical-align: bottom;
+}
+
+.table-striped{
+    overflow: hidden;
+    height: 50px;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #2F333E;
+}
+
+ /* Orders tile */

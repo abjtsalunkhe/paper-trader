@@ -1,0 +1,44 @@
+.account-height{
+    height:100px;
+    margin: 0px;
+}
+
+.equity-text{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.equity{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.buying-power-container{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.buying-power{
+font-size: 120%;
+font-weight: bold;
+}
+
+.buying-power-text{
+    font-size: 100%;
+}
+
+.profit-red{
+    text-align: end;
+    font-size: 170%;
+    margin-bottom: 0px;
+    color: #E33E33;
+    font-weight: bolder;
+}
+
+.profit-green{
+    text-align: end;
+    font-size: 170%;
+    margin-bottom: 0px;
+    color: #85bb65;
+    font-weight: bolder;
+}
