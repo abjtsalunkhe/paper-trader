@@ -1,6 +1,6 @@
 # paper-trader
 1.	Copy the zip file to C:\MAMP\htdocs (or your local server like xampp)
-2.	After extracting folder structure should look like this. 
+2.	Extract the zip file. 
 3.	Open node folder in command prompt/shell window. Type npm i and hit enter. 
 4.	Type node index to start node application. 
 5.	Start mamp server 
@@ -14,8 +14,7 @@ https://www.alphavantage.co/documentation/
 11.	Equity, buying power at top left corner and profit/loss at the right is loaded from Alpaca account API. Depending upon profit or loss, the text is either green or red.
 12.	Portfolio tile shows all your current positions. I have used Alpaca Positions API. Stock rectangle is either red or green based on today’s market. Total profit text color is also either red or green based on if you have made profit with that stock.
 13.	Orders tile shows all orders placed so far. If the order is filled status text is green or else it’s white. I have used Alpaca Orders API.
-14.	Watchlist tile uses 2 API. Alpaca Assets API to search stock and Alpha Vantage for showing stock information. Click Add button. Enter stock symbol in the textbox. It shows all stocks available to trade as you type.
- 
+14.	Watchlist tile uses 2 API. Alpaca Assets API to search stock and Alpha Vantage for showing stock information. Click Add button. Enter stock symbol in the textbox. It shows all stocks available to trade as you type. 
 15.	Click Add and the stock in added in the Watchlist. Then Alpha Vantage API gets stock information. Unfortunately, this api only allows 5 calls per minute. So if you keep adding stocks there will be a modal popup at the top of the screen, which will tell you this limitation.
 16.	Wathclist is not saved. If you refresh the page, the list will be empty. In future I will use MongoDB.
 17.	Inside Trade tile, search stock in Symbol textbox. If stock symbol is valid, stock price is shown beside the textbox using Alpha Vantage API. (remember 5 api calls per minute) If you choose, stop/limit order type then more textboxes are visible to add stop/limit price.
